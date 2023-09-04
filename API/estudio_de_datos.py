@@ -3,6 +3,7 @@ import pandas as pd
 
 
 def obtener_dataframe(dato):
+    # se convierte a la variable 'datos' a un dataframe
     dataframe = pd.DataFrame.from_records(dato)
     return dataframe
 
